@@ -1,0 +1,72 @@
+.container {
+    margin-top: 10px;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton {
+    padding: 10px;
+    background-color: #5d57c9;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #2e25d1;
+    transition: 0.5s;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td{
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.view {
+    background-color: #18a80a;
+}
+
+.view:hover {
+    background-color: #0c6904;
+    transition: 0.5s;
+}
+
+.delete {
+    background-color: #f02424;
+}
+
+.delete:hover {
+    background-color: #a50000;
+    transition: 0.5s;
+}
